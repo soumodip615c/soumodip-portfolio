@@ -29,7 +29,7 @@ export const navItems = [
 
 export const about = {
   intro:
-    "I'm a Computer Science & Engineering student specializing in Data Science, focused on building practical solutions with AI/ML, data, and backend technologies.",
+  "I'm an engineer at heart and a data scientist by training, curious about how AI can be made practical, reliable, and useful.",
   detail:
     "I work with Python, SQL, FastAPI, PostgreSQL, TensorFlow, PyTorch, and computer vision to turn real-world problems into working applications.",
   education: {
