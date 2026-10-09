@@ -32,7 +32,7 @@ export default function Hero({ ready }) {
             aria-hidden
             className="font-display text-[clamp(1.9rem,5vw,4rem)] font-semibold leading-[0.95] tracking-tight"
           >
-            SOUMODIP GHOSH
+            SOUMODIP  GHOSH
           </motion.h2>
           <motion.p variants={item} className="mt-6 font-display text-lg text-accent-soft md:text-xl">
             {profile.role}
