@@ -62,7 +62,7 @@ export default function Hero({ ready }) {
           initial={{ opacity: 0, x: 60 }}
           animate={ready ? { opacity: 1, x: 0 } : { opacity: 0, x: 60 }}
           transition={{ duration: 1, delay: 0.5, ease }}
-          className="mx-auto w-full max-w-[220px] lg:max-w-[270px]"
+          className="mx-auto w-full max-w-[260px] lg:max-w-[320px]"
         >
           <div className="relative rounded-2xl border border-accent/40 bg-panel p-3 shadow-[0_0_70px_-15px_rgba(47,123,255,0.55)]">
             <span className="absolute -left-px -top-px h-5 w-5 rounded-tl-2xl border-l-2 border-t-2 border-accent" aria-hidden />
@@ -74,7 +74,7 @@ export default function Hero({ ready }) {
                 alt={`Portrait of ${profile.name}`}
                 label="Add your profile photo"
                 className="aspect-[4/5] w-full"
-                sizes="(min-width:1024px) 270px, 220px"
+                sizes="(min-width:1024px) 320px, 260px"
                 priority
               />
               <div className="light-sweep pointer-events-none absolute inset-y-0 w-1/3 bg-gradient-to-r from-transparent via-white/10 to-transparent" aria-hidden />
